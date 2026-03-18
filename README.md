@@ -1,7 +1,7 @@
 # @vaibot/mcp-server
 
 [![npm](https://img.shields.io/npm/v/@vaibot/mcp-server)](https://www.npmjs.com/package/@vaibot/mcp-server)
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.campbelllabs%2Fvaibot-blue)](https://registry.modelcontextprotocol.io)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.vaibot--io%2Fmcp--server-blue)](https://registry.modelcontextprotocol.io)
 
 VAIBot governance circuit-breaker as an MCP server.
 
