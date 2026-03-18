@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vaibot-io/vaibot.git"
+    "url": "https://github.com/vaibot-io/mcp-server.git"
   },
   "homepage": "https://vaibot.io",
   "keywords": [

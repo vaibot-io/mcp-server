@@ -3,7 +3,7 @@
   "name": "io.github.vaibot-io/mcp-server",
   "description": "VAIBot governance circuit breaker for AI agents. Classifies risk, enforces policy, and produces tamper-evident governance receipts for every agent tool call — before a single command executes.",
   "repository": {
-    "url": "https://github.com/vaibot-io/vaibot",
+    "url": "https://github.com/vaibot-io/mcp-server.git",
     "source": "github"
   },
   "version": "0.1.0",
