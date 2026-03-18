@@ -1,0 +1,53 @@
+{
+  "name": "@vaibot/mcp-server",
+  "version": "0.1.0",
+  "description": "VAIBot MCP server — governance circuit breaker for AI agents. Classifies risk, enforces policy, and produces tamper-evident receipts for every agent action.",
+  "mcpName": "io.github.vaibot-io/mcp-server",
+  "type": "module",
+  "bin": {
+    "vaibot-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.test.*",
+    "!dist/**/*.spec.*",
+    "README.md",
+    "server.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaibot-io/vaibot.git"
+  },
+  "homepage": "https://vaibot.io",
+  "keywords": [
+    "mcp",
+    "vaibot",
+    "governance",
+    "ai-agent",
+    "circuit-breaker",
+    "policy",
+    "compliance",
+    "audit"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0",
+    "zod-to-json-schema": "^3.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

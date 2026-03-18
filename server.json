@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.vaibot-io/mcp-server",
+  "description": "VAIBot governance circuit breaker for AI agents. Classifies risk, enforces policy, and produces tamper-evident governance receipts for every agent tool call — before a single command executes.",
+  "repository": {
+    "url": "https://github.com/vaibot-io/vaibot",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@vaibot/mcp-server",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "VAIBOT_API_KEY",
+          "description": "Your VAIBot API key. Staging keys start with vb_stg_, production keys with vb_live_. Get yours at https://vaibot.io/quickstart",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "VAIBOT_API_BASE_URL",
+          "description": "VAIBot API base URL. Defaults to https://api.vaibot.io if not set.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
